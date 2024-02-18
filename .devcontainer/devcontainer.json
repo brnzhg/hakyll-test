@@ -13,20 +13,12 @@
       ],
       "settings": {
         "editor.formatOnSave": true,
-        "haskell.formattingProvider": "stylish-haskell",
-        "update.showReleaseNotes": false,
-        "git.fetchOnPull": true,
-        "git.autofetch": "all",
-        "git.pruneOnFetch": true,
-        "git.autofetchPeriod": 3600,
-        "githubPullRequests.ignoredPullRequestBranches": [
-          "main"
-        ]
+        "haskell.formattingProvider": "stylish-haskell"
       }
     }
-  }
+  },
   
-  // "initializeCommand" : "ls"
+  "initializeCommand" : "ls"
   // taken from https://github.com/commercialhaskell/stack/blob/master/.devcontainer/devcontainer.json
   // and https://github.com/chungyc/ninetynine/blob/main/.devcontainer/devcontainer.json
 }
