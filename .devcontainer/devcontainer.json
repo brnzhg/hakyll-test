@@ -1,0 +1,23 @@
+{
+  "name": "Default",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell"
+      ],
+      "settings": {
+        "gitlens.showWelcomeOnInstall": false,
+        "gitlens.showWhatsNewAfterUpgrades": false,
+        "haskell.manageHLS": "PATH",
+        "resmon.show.battery": false,
+        "resmon.show.cpufreq": false
+      }
+    }
+  },
+  
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/haskell:2": {}
+  }
+  
+  // taken from https://github.com/commercialhaskell/stack/blob/master/.devcontainer/devcontainer.json
+}
